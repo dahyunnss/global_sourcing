@@ -1,0 +1,16 @@
+{
+  "query": "Vehicle Wireless Charging Silicone Mat",
+  "pages_fetched": 0,
+  "counts_per_page": [],
+  "new_per_page": [],
+  "dup_per_page": [],
+  "deduplication_stats": {
+    "total_collected": 0,
+    "unique_suppliers": 0,
+    "duplicates_removed": 0,
+    "duplication_rate": "0.0%"
+  },
+  "stop_reason": "json_parse_error",
+  "out_dir": "C:\\Users\\dahyunss\\final_sourcing\\alibaba_sourcing3\\1_output\\260226\\sourcing_data\\supplier_search_260226_en\\Vehicle Wireless Charging Silicone Mat",
+  "success": false
+}

@@ -1,0 +1,40 @@
+{
+  "query": "car tire inflator",
+  "pages_fetched": 7,
+  "counts_per_page": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    0
+  ],
+  "new_per_page": [
+    20,
+    3,
+    1,
+    1,
+    5,
+    14,
+    0
+  ],
+  "dup_per_page": [
+    0,
+    17,
+    19,
+    19,
+    15,
+    6,
+    0
+  ],
+  "deduplication_stats": {
+    "total_collected": 120,
+    "unique_suppliers": 44,
+    "duplicates_removed": 76,
+    "duplication_rate": "63.3%"
+  },
+  "stop_reason": "empty_page",
+  "out_dir": "C:\\Users\\dahyunss\\final_sourcing\\alibaba_sourcing3\\1_output\\260226\\sourcing_data\\supplier_search_260226_en\\car tire inflator",
+  "success": true
+}

@@ -1,0 +1,55 @@
+{
+  "query": "汽车无线充电垫 硅胶",
+  "pages_fetched": 12,
+  "counts_per_page": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    0,
+    0
+  ],
+  "new_per_page": [
+    20,
+    1,
+    2,
+    0,
+    0,
+    19,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "dup_per_page": [
+    0,
+    19,
+    18,
+    20,
+    20,
+    1,
+    18,
+    20,
+    19,
+    19,
+    0,
+    0
+  ],
+  "deduplication_stats": {
+    "total_collected": 200,
+    "unique_suppliers": 46,
+    "duplicates_removed": 154,
+    "duplication_rate": "77.0%"
+  },
+  "stop_reason": "consecutive_empty_pages_3",
+  "out_dir": "C:\\Users\\dahyunss\\final_sourcing\\alibaba_sourcing3\\1_output\\260226\\sourcing_data\\supplier_search_260226_cn\\汽车无线充电垫 硅胶",
+  "success": true
+}

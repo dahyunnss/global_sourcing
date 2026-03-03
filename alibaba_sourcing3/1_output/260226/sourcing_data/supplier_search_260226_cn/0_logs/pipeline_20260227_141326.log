@@ -1,0 +1,565 @@
+16개 키워드 로드 완료.
+📊 전체 키워드 수: 16개
+----------------------------------------
+[총 16개 키워드 수집 시작]
+
+📊 진행 상황: 0/16 (0.0%)
+
+[1/16] 🔍 키워드 수집 시도: 汽车后备箱收纳箱
+🌏 번역: 汽车后备箱收纳箱 → Car trunk organizer
+🔍 키워드: 汽车后备箱收纳箱 → Car trunk organizer
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169207110&queryRaw=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%94%B6%E7%BA%B3%E7%AE%B1&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169207110&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 7.9초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169215449&queryRaw=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%94%B6%E7%BA%B3%E7%AE%B1&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169215449&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 9.7초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169225428&queryRaw=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%94%B6%E7%BA%B3%E7%AE%B1&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169225428&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 6.9초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 汽车后备箱收纳箱
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 汽车后备箱收纳箱 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 汽车后备箱收纳箱: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[2/16] 🔍 키워드 수집 시도: 车载储物箱
+🌏 번역: 车载储物箱 → Car Organizer
+🔍 키워드: 车载储物箱 → Car Organizer
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2BOrganizer&supplierQpProductName=Car&query=Car%2C+Organizer&productAttributes=Organizer&pageSize=20&productName=Car&intention=&queryProduct=Car%2BOrganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169246516&queryRaw=%E8%BD%A6%E8%BD%BD%E5%82%A8%E7%89%A9%E7%AE%B1&supplierQpKeywords=Car%2COrganizer&startTime=1772169246516&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 11.5초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2BOrganizer&supplierQpProductName=Car&query=Car%2C+Organizer&productAttributes=Organizer&pageSize=20&productName=Car&intention=&queryProduct=Car%2BOrganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169258431&queryRaw=%E8%BD%A6%E8%BD%BD%E5%82%A8%E7%89%A9%E7%AE%B1&supplierQpKeywords=Car%2COrganizer&startTime=1772169258431&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 8.8초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2BOrganizer&supplierQpProductName=Car&query=Car%2C+Organizer&productAttributes=Organizer&pageSize=20&productName=Car&intention=&queryProduct=Car%2BOrganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169267633&queryRaw=%E8%BD%A6%E8%BD%BD%E5%82%A8%E7%89%A9%E7%AE%B1&supplierQpKeywords=Car%2COrganizer&startTime=1772169267633&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 7.8초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车载储物箱
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车载储物箱 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车载储物箱: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[3/16] 🔍 키워드 수집 시도: 车辆行李箱整理器
+🌏 번역: 车辆行李箱整理器 → Car trunk organizer
+🔍 키워드: 车辆行李箱整理器 → Car trunk organizer
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169289759&queryRaw=%E8%BD%A6%E8%BE%86%E8%A1%8C%E6%9D%8E%E7%AE%B1%E6%95%B4%E7%90%86%E5%99%A8&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169289759&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 11.5초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169301816&queryRaw=%E8%BD%A6%E8%BE%86%E8%A1%8C%E6%9D%8E%E7%AE%B1%E6%95%B4%E7%90%86%E5%99%A8&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169301816&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 6.6초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169308777&queryRaw=%E8%BD%A6%E8%BE%86%E8%A1%8C%E6%9D%8E%E7%AE%B1%E6%95%B4%E7%90%86%E5%99%A8&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169308777&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 8.6초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车辆行李箱整理器
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车辆行李箱整理器 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车辆行李箱整理器: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[4/16] 🔍 키워드 수집 시도: 汽车轮胎充气泵
+🌏 번역: 汽车轮胎充气泵 → Car tire inflator
+🔍 키워드: 汽车轮胎充气泵 → Car tire inflator
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169331656&queryRaw=%E6%B1%BD%E8%BD%A6%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169331656&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 11.4초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169343503&queryRaw=%E6%B1%BD%E8%BD%A6%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169343504&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 10.6초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169354423&queryRaw=%E6%B1%BD%E8%BD%A6%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169354423&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 9.6초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 汽车轮胎充气泵
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 汽车轮胎充气泵 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 汽车轮胎充气泵: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[5/16] 🔍 키워드 수집 시도: 车载充气泵
+🌏 번역: 车载充气泵 → Car tire inflator
+🔍 키워드: 车载充气泵 → Car tire inflator
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169378284&queryRaw=%E8%BD%A6%E8%BD%BD%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169378284&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 11.2초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169390238&queryRaw=%E8%BD%A6%E8%BD%BD%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169390238&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 10.1초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169400806&queryRaw=%E8%BD%A6%E8%BD%BD%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169400806&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 8.4초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车载充气泵
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车载充气泵 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车载充气泵: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[6/16] 🔍 키워드 수집 시도: 汽车打气机
+🌏 번역: 汽车打气机 → Car tire inflator
+🔍 키워드: 汽车打气机 → Car tire inflator
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169419259&queryRaw=%E6%B1%BD%E8%BD%A6%E6%89%93%E6%B0%94%E6%9C%BA&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169419259&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 8.0초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169427699&queryRaw=%E6%B1%BD%E8%BD%A6%E6%89%93%E6%B0%94%E6%9C%BA&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169427699&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 9.8초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169437804&queryRaw=%E6%B1%BD%E8%BD%A6%E6%89%93%E6%B0%94%E6%9C%BA&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169437804&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 9.3초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 汽车打气机
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 汽车打气机 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 汽车打气机: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[7/16] 🔍 키워드 수집 시도: 轮胎充气机
+🌏 번역: 轮胎充气机 → Tire inflator
+🔍 키워드: 轮胎充气机 → Tire inflator
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Tire%2Binflator&supplierQpProductName=Tire&query=Tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Tire&intention=&queryProduct=Tire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169456720&queryRaw=%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%9C%BA&supplierQpKeywords=Tire%2Cinflator&startTime=1772169456720&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 7.2초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Tire%2Binflator&supplierQpProductName=Tire&query=Tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Tire&intention=&queryProduct=Tire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169464333&queryRaw=%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%9C%BA&supplierQpKeywords=Tire%2Cinflator&startTime=1772169464333&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 10.0초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Tire%2Binflator&supplierQpProductName=Tire&query=Tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Tire&intention=&queryProduct=Tire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169474634&queryRaw=%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%9C%BA&supplierQpKeywords=Tire%2Cinflator&startTime=1772169474634&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 7.8초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 轮胎充气机
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 轮胎充气机 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 轮胎充气机: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[8/16] 🔍 키워드 수집 시도: 车载无线充电器硅胶垫
+🌏 번역: 车载无线充电器硅胶垫 → Car wireless charger silicone pad
+🔍 키워드: 车载无线充电器硅胶垫 → Car wireless charger silicone pad
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharger%2Bsilicone%2Bpad&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charger+silicone+pad&productAttributes=charger+silicone+pad&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharger%2Bsilicone%2Bpad&supplierAttributes=&requestId=AI_Web_3500008931995_1772169492696&queryRaw=%E8%BD%A6%E8%BD%BD%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%99%A8%E7%A1%85%E8%83%B6%E5%9E%AB&supplierQpKeywords=Car+wireless%2Ccharger+silicone+pad&startTime=1772169492696&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 11.5초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharger%2Bsilicone%2Bpad&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charger+silicone+pad&productAttributes=charger+silicone+pad&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharger%2Bsilicone%2Bpad&supplierAttributes=&requestId=AI_Web_3500008931995_1772169504535&queryRaw=%E8%BD%A6%E8%BD%BD%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%99%A8%E7%A1%85%E8%83%B6%E5%9E%AB&supplierQpKeywords=Car+wireless%2Ccharger+silicone+pad&startTime=1772169504535&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 9.6초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharger%2Bsilicone%2Bpad&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charger+silicone+pad&productAttributes=charger+silicone+pad&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharger%2Bsilicone%2Bpad&supplierAttributes=&requestId=AI_Web_3500008931995_1772169514471&queryRaw=%E8%BD%A6%E8%BD%BD%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%99%A8%E7%A1%85%E8%83%B6%E5%9E%AB&supplierQpKeywords=Car+wireless%2Ccharger+silicone+pad&startTime=1772169514471&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 6.5초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车载无线充电器硅胶垫
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车载无线充电器硅胶垫 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车载无线充电器硅胶垫: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[9/16] 🔍 키워드 수집 시도: 汽车无线充电垫 硅胶
+🌏 번역: 汽车无线充电垫 硅胶 → Car wireless charging pad silicone
+🔍 키워드: 汽车无线充电垫 硅胶 → Car wireless charging pad silicone
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charging+pad+silicone&productAttributes=charging+pad+silicone&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierAttributes=&requestId=AI_Web_3500008931995_1772169534954&queryRaw=%E6%B1%BD%E8%BD%A6%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%9E%AB+%E7%A1%85%E8%83%B6&supplierQpKeywords=Car+wireless%2Ccharging+pad+silicone&startTime=1772169534954&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 6.2초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charging+pad+silicone&productAttributes=charging+pad+silicone&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierAttributes=&requestId=AI_Web_3500008931995_1772169541783&queryRaw=%E6%B1%BD%E8%BD%A6%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%9E%AB+%E7%A1%85%E8%83%B6&supplierQpKeywords=Car+wireless%2Ccharging+pad+silicone&startTime=1772169541783&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 9.2초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charging+pad+silicone&productAttributes=charging+pad+silicone&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierAttributes=&requestId=AI_Web_3500008931995_1772169551268&queryRaw=%E6%B1%BD%E8%BD%A6%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%9E%AB+%E7%A1%85%E8%83%B6&supplierQpKeywords=Car+wireless%2Ccharging+pad+silicone&startTime=1772169551268&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 8.7초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 汽车无线充电垫 硅胶
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 汽车无线充电垫 硅胶 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 汽车无线充电垫 硅胶: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[10/16] 🔍 키워드 수집 시도: 车辆无线充电垫 硅胶
+🌏 번역: 车辆无线充电垫 硅胶 → Car wireless charging pad silicone
+🔍 키워드: 车辆无线充电垫 硅胶 → Car wireless charging pad silicone
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charging+pad+silicone&productAttributes=charging+pad+silicone&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierAttributes=&requestId=AI_Web_3500008931995_1772169573523&queryRaw=%E8%BD%A6%E8%BE%86%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%9E%AB+%E7%A1%85%E8%83%B6&supplierQpKeywords=Car+wireless%2Ccharging+pad+silicone&startTime=1772169573523&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 10.5초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charging+pad+silicone&productAttributes=charging+pad+silicone&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierAttributes=&requestId=AI_Web_3500008931995_1772169584430&queryRaw=%E8%BD%A6%E8%BE%86%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%9E%AB+%E7%A1%85%E8%83%B6&supplierQpKeywords=Car+wireless%2Ccharging+pad+silicone&startTime=1772169584430&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 8.3초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierQpProductName=Car+wireless&query=Car+wireless%2C+charging+pad+silicone&productAttributes=charging+pad+silicone&pageSize=20&productName=Car+wireless&intention=&queryProduct=Car%2Bwireless%2Bcharging%2Bpad%2Bsilicone&supplierAttributes=&requestId=AI_Web_3500008931995_1772169593088&queryRaw=%E8%BD%A6%E8%BE%86%E6%97%A0%E7%BA%BF%E5%85%85%E7%94%B5%E5%9E%AB+%E7%A1%85%E8%83%B6&supplierQpKeywords=Car+wireless%2Ccharging+pad+silicone&startTime=1772169593088&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 9.3초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车辆无线充电垫 硅胶
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车辆无线充电垫 硅胶 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车辆无线充电垫 硅胶: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+☕ 배치 휴식 중... (3.1분)
+
+[11/16] 🔍 키워드 수집 시도: 汽车后备箱整理箱
+🌏 번역: 汽车后备箱整理箱 → Car trunk organizer
+🔍 키워드: 汽车后备箱整理箱 → Car trunk organizer
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169798811&queryRaw=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%95%B4%E7%90%86%E7%AE%B1&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169798811&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 11.1초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169810324&queryRaw=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%95%B4%E7%90%86%E7%AE%B1&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169810324&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 8.8초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169819611&queryRaw=%E6%B1%BD%E8%BD%A6%E5%90%8E%E5%A4%87%E7%AE%B1%E6%95%B4%E7%90%86%E7%AE%B1&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169819611&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 8.7초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 汽车后备箱整理箱
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 汽车后备箱整理箱 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 汽车后备箱整理箱: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[12/16] 🔍 키워드 수집 시도: 车辆后备箱储物盒
+🌏 번역: 车辆后备箱储物盒 → Car trunk organizer
+🔍 키워드: 车辆后备箱储物盒 → Car trunk organizer
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169838110&queryRaw=%E8%BD%A6%E8%BE%86%E5%90%8E%E5%A4%87%E7%AE%B1%E5%82%A8%E7%89%A9%E7%9B%92&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169838110&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 6.7초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169845250&queryRaw=%E8%BD%A6%E8%BE%86%E5%90%8E%E5%A4%87%E7%AE%B1%E5%82%A8%E7%89%A9%E7%9B%92&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169845250&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 9.5초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btrunk%2Borganizer&supplierQpProductName=Car+trunk&query=Car+trunk%2C+organizer&productAttributes=organizer&pageSize=20&productName=Car+trunk&intention=&queryProduct=Car%2Btrunk%2Borganizer&supplierAttributes=&requestId=AI_Web_3500008931995_1772169855142&queryRaw=%E8%BD%A6%E8%BE%86%E5%90%8E%E5%A4%87%E7%AE%B1%E5%82%A8%E7%89%A9%E7%9B%92&supplierQpKeywords=Car+trunk%2Corganizer&startTime=1772169855142&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 11.9초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车辆后备箱储物盒
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车辆后备箱储物盒 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车辆后备箱储物盒: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+
+[13/16] 🔍 키워드 수집 시도: 车用轮胎充气泵
+🌏 번역: 车用轮胎充气泵 → Car tire inflator
+🔍 키워드: 车用轮胎充气泵 → Car tire inflator
+수집 설정: page_size=20, max_pages=20
+
+====================================================================================================
+[페이지 1] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169881468&queryRaw=%E8%BD%A6%E7%94%A8%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169881468&isCompanyName=0&langident=zh&page=1&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[1] ⏰ 7.5초 대기 중...
+[1] ⚠️ 빈 페이지 (연속 1회)
+
+====================================================================================================
+[페이지 2] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169889339&queryRaw=%E8%BD%A6%E7%94%A8%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169889339&isCompanyName=0&langident=zh&page=2&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[2] ⏰ 6.6초 대기 중...
+[2] ⚠️ 빈 페이지 (연속 2회)
+
+====================================================================================================
+[페이지 3] 요청 URL:
+https://www.alibaba.com/search/api/supplierTextSearch?productQpKeywords=Car%2Btire%2Binflator&supplierQpProductName=Car+tire&query=Car+tire%2C+inflator&productAttributes=inflator&pageSize=20&productName=Car+tire&intention=&queryProduct=Car%2Btire%2Binflator&supplierAttributes=&requestId=AI_Web_3500008931995_1772169896249&queryRaw=%E8%BD%A6%E7%94%A8%E8%BD%AE%E8%83%8E%E5%85%85%E6%B0%94%E6%B3%B5&supplierQpKeywords=Car+tire%2Cinflator&startTime=1772169896249&isCompanyName=0&langident=zh&page=3&pro=true&from=pcHomeContent&country=CN
+====================================================================================================
+
+[3] ⏰ 6.2초 대기 중...
+[3] ⚠️ 빈 페이지 (연속 3회)
+[3] 🛑 연속 3개 빈 페이지 → 중단
+📊 수집 요약
+==================================================
+🔍 키워드: 车用轮胎充气泵
+📄 페이지: 2개
+📦 총 수집: 0개
+✅ 유니크: 0개
+🔄 중복 제거: 0개 (0.0%)
+==================================================
+✅ 车用轮胎充气泵 → suppliers_all.json 생성 완료 (중복 제거됨)
+⚠️ 车用轮胎充气泵: 1차 수집 실패
+
+⚠️ 실패한 키워드 목록 저장: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\sourcing_data\supplier_search_260226_cn\failed_keywords.json
+Traceback (most recent call last):
+  File "C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\main.py", line 234, in <module>
+    # ── STEP 6: 관련성 필터링 ──
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\main.py", line 146, in run_collect_step
+    # ── 수집 스텝 실행 (auto_confirm=True) ────────────────────────
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_collect\0_cn.py", line 1295, in main
+    collector.run(all_keywords)
+  File "C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_collect\0_cn.py", line 1217, in run
+    time.sleep(random.uniform(KEYWORD_DELAY_MIN, KEYWORD_DELAY_MAX))
+KeyboardInterrupt

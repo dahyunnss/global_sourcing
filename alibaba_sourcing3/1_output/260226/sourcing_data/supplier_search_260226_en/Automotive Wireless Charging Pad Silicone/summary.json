@@ -1,0 +1,40 @@
+{
+  "query": "Automotive Wireless Charging Pad Silicone",
+  "pages_fetched": 7,
+  "counts_per_page": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "new_per_page": [
+    20,
+    2,
+    2,
+    0,
+    3,
+    16,
+    2
+  ],
+  "dup_per_page": [
+    0,
+    18,
+    18,
+    20,
+    17,
+    4,
+    18
+  ],
+  "deduplication_stats": {
+    "total_collected": 140,
+    "unique_suppliers": 45,
+    "duplicates_removed": 95,
+    "duplication_rate": "67.9%"
+  },
+  "stop_reason": "json_parse_error",
+  "out_dir": "C:\\Users\\dahyunss\\final_sourcing\\alibaba_sourcing3\\1_output\\260226\\sourcing_data\\supplier_search_260226_en\\Automotive Wireless Charging Pad Silicone",
+  "success": true
+}
