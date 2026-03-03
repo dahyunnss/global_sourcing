@@ -1,5 +1,5 @@
 # global_sourcing
-## 📁 프로젝트 구조
+## 📁 Directory Structure 
 ```
 alibaba_sourcing3/
 ├── main.py
