@@ -265,8 +265,7 @@ def process_filtering(df: pd.DataFrame, min_score: float = 2.0) -> pd.DataFrame:
 # 4. 메인 실행부
 # ============================================
 def main(input_csv: str = None, output_csv: str = None):
-    log_file = setup_logging()
-    log_print(f"🚀 Alibaba 제품 그룹 필터링 시작 (로그: {log_file})")
+    log_print("🚀 Alibaba 제품 그룹 필터링 시작")
 
     try:
         if input_csv is None:
@@ -360,4 +359,5 @@ def main(input_csv: str = None, output_csv: str = None):
         return None
 
 if __name__ == "__main__":
+    setup_logging()
     main()

@@ -10,6 +10,7 @@ import os
 import glob
 import pandas as pd
 from datetime import datetime
+import logging
 
 COLLECT_DIR      = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR         = os.path.dirname(COLLECT_DIR)
@@ -53,8 +54,8 @@ def filter_to_master(df: pd.DataFrame, master_cols: list) -> pd.DataFrame:
 def main(output_path: str = None, sourcing_root: str = None):
     # 1. 마스터 컬럼 로드
     master_cols = load_master_columns()
-    print(f"마스터 컬럼: {len(master_cols)}개")
-    print(f"  → {master_cols}")
+    logging.info(f"마스터 컬럼: {len(master_cols)}개")
+    logging.info(f"  → {master_cols}")
 
     # 2. EN / CN CSV 탐색
     en_csv = find_output_csv("all_keywords_suppliers_en.csv", sourcing_root)
@@ -64,29 +65,29 @@ def main(output_path: str = None, sourcing_root: str = None):
 
     if en_csv:
         df_en = pd.read_csv(en_csv, encoding="utf-8-sig", low_memory=False)
-        print(f"\nEN CSV 로드: {len(df_en):,}행, {len(df_en.columns)}컬럼")
-        print(f"  경로: {en_csv}")
+        logging.info(f"\nEN CSV 로드: {len(df_en):,}행, {len(df_en.columns)}컬럼")
+        logging.info(f"  경로: {en_csv}")
         df_en = filter_to_master(df_en, master_cols)
         dfs.append(df_en)
     else:
-        print("⚠️  EN CSV(all_keywords_suppliers_en.csv)를 찾을 수 없습니다.")
+        logging.info("⚠️  EN CSV(all_keywords_suppliers_en.csv)를 찾을 수 없습니다.")
 
     if cn_csv:
         df_cn = pd.read_csv(cn_csv, encoding="utf-8-sig", low_memory=False)
-        print(f"\nCN CSV 로드: {len(df_cn):,}행, {len(df_cn.columns)}컬럼")
-        print(f"  경로: {cn_csv}")
+        logging.info(f"\nCN CSV 로드: {len(df_cn):,}행, {len(df_cn.columns)}컬럼")
+        logging.info(f"  경로: {cn_csv}")
         df_cn = filter_to_master(df_cn, master_cols)
         dfs.append(df_cn)
     else:
-        print("⚠️  CN CSV(all_keywords_suppliers_cn.csv)를 찾을 수 없습니다.")
+        logging.info("⚠️  CN CSV(all_keywords_suppliers_cn.csv)를 찾을 수 없습니다.")
 
     if not dfs:
-        print("❌ 처리할 CSV 파일이 없습니다.")
+        logging.info("❌ 처리할 CSV 파일이 없습니다.")
         return
 
     # 3. EN + CN 합치기
     df_combined = pd.concat(dfs, ignore_index=True)
-    print(f"\n합산: {len(df_combined):,}행 × {len(master_cols)}컬럼")
+    logging.info(f"\n합산: {len(df_combined):,}행 × {len(master_cols)}컬럼")
 
     # 4. 저장
     if output_path is None:
@@ -95,8 +96,8 @@ def main(output_path: str = None, sourcing_root: str = None):
 
     df_combined.to_csv(output_path, index=False, encoding="utf-8-sig")
 
-    print(f"\n완료! 저장됨 → {output_path}")
-    print(f"최종: {len(df_combined):,}행, {len(master_cols)}컬럼")
+    logging.info(f"\n완료! 저장됨 → {output_path}")
+    logging.info(f"최종: {len(df_combined):,}행, {len(master_cols)}컬럼")
 
 
 if __name__ == "__main__":

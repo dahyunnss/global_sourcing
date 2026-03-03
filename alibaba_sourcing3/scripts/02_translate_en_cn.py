@@ -13,6 +13,7 @@ from openai import OpenAI
 
 # Gemini
 import google.generativeai as genai
+import logging
 
 OPENAI_MODEL = "gpt-4o"
 GEMINI_MODEL = "gemini-2.5-flash-lite"
@@ -99,7 +100,7 @@ def translate_keyword(engine: str, openai_client: OpenAI, ko: str):
             else:
                 return translate_gemini(ko)
         except Exception as e:
-            print(f"  [경고] {engine} 번역 실패 시도 {attempt}: {e}")
+            logging.info(f"  [경고] {engine} 번역 실패 시도 {attempt}: {e}")
             time.sleep(attempt)
     return None
 
@@ -109,7 +110,7 @@ def run_engine(engine: str, api_name: str, unique_keywords, openai_client) -> li
     rows = []
     total = len(unique_keywords)
     for idx, ko in enumerate(unique_keywords):
-        print(f"  [{idx+1}/{total}] '{ko}' 번역 중... ({api_name})")
+        logging.info(f"  [{idx+1}/{total}] '{ko}' 번역 중... ({api_name})")
 
         result = translate_keyword(engine, openai_client, ko)
 
@@ -158,14 +159,14 @@ def main(input_csv: str, output_csv: str):
     unique_keywords = df["general_keyword_car"].unique()
 
     # ── STEP A: Gemini 번역 ──────────────────────────────────
-    print(f"\n[Gemini 번역 시작] 총 {len(unique_keywords)}개 키워드")
+    logging.info(f"\n[Gemini 번역 시작] 총 {len(unique_keywords)}개 키워드")
     rows_gemini = run_engine("gemini", "Gemini", unique_keywords, openai_client)
-    print(f"[Gemini 번역 완료] {len(rows_gemini)}행 생성")
+    logging.info(f"[Gemini 번역 완료] {len(rows_gemini)}행 생성")
 
     # ── STEP B: OpenAI 번역 ──────────────────────────────────
-    print(f"\n[OpenAI 번역 시작] 총 {len(unique_keywords)}개 키워드")
+    logging.info(f"\n[OpenAI 번역 시작] 총 {len(unique_keywords)}개 키워드")
     rows_openai = run_engine("openai", "ChatGPT", unique_keywords, openai_client)
-    print(f"[OpenAI 번역 완료] {len(rows_openai)}행 생성")
+    logging.info(f"[OpenAI 번역 완료] {len(rows_openai)}행 생성")
 
     # ── 합쳐서 저장 (Gemini 먼저, OpenAI 다음) ───────────────
     df_out = pd.DataFrame(rows_gemini + rows_openai)
@@ -173,8 +174,8 @@ def main(input_csv: str, output_csv: str):
     df_out = df_out.rename(columns={"general_keyword_car": "general_keyword_네이버쇼핑"})
     df_out.to_csv(output_csv, index=False, encoding="utf-8-sig")
 
-    print(f"\n완료! 저장됨 → {output_csv}")
-    print(f"총 {len(df_out)}행 생성됨  (Gemini {len(rows_gemini)}행 + OpenAI {len(rows_openai)}행)")
+    logging.info(f"\n완료! 저장됨 → {output_csv}")
+    logging.info(f"총 {len(df_out)}행 생성됨  (Gemini {len(rows_gemini)}행 + OpenAI {len(rows_openai)}행)")
 
 
 if __name__ == "__main__":

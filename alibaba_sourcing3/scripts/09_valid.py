@@ -9,6 +9,7 @@ valid.py
 import os
 import glob
 import pandas as pd
+import logging
 
 _COLLECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -20,10 +21,10 @@ def main(input_csv: str = None, output_csv: str = None):
             key=os.path.getmtime, reverse=True
         )
         if not candidates:
-            print("❌ verified_*.csv 파일을 찾을 수 없습니다.")
+            logging.info("❌ verified_*.csv 파일을 찾을 수 없습니다.")
             return None
         input_csv = candidates[0]
-        print(f"📂 자동 탐색된 CSV: {os.path.basename(input_csv)}")
+        logging.info(f"📂 자동 탐색된 CSV: {os.path.basename(input_csv)}")
     if output_csv is None:
         base, ext = os.path.splitext(input_csv)
         output_csv = f"{base}_filtered{ext}"
@@ -34,11 +35,11 @@ def main(input_csv: str = None, output_csv: str = None):
     except Exception:
         df = pd.read_csv(input_csv, encoding="cp949", low_memory=False)
 
-    print(f"✅ 입력 데이터: {len(df):,}행")
+    logging.info(f"✅ 입력 데이터: {len(df):,}행")
 
     col = "is_valid_manufacturer"
     if col not in df.columns:
-        print(f"❌ '{col}' 컬럼을 찾을 수 없습니다.")
+        logging.info(f"❌ '{col}' 컬럼을 찾을 수 없습니다.")
         return
 
     # FALSE 판별: 문자열 "False"/"FALSE"/"false" 또는 bool False
@@ -50,8 +51,8 @@ def main(input_csv: str = None, output_csv: str = None):
     df_filtered = df[~is_false].copy()
     removed = before - len(df_filtered)
 
-    print(f"  제거된 행 (FALSE): {removed:,}개")
-    print(f"  남은 행 (TRUE + BLANK): {len(df_filtered):,}개")
+    logging.info(f"  제거된 행 (FALSE): {removed:,}개")
+    logging.info(f"  남은 행 (TRUE + BLANK): {len(df_filtered):,}개")
 
     # 불필요 컬럼 제거
     drop_cols = [c for c in [
@@ -59,10 +60,10 @@ def main(input_csv: str = None, output_csv: str = None):
         "matched_keyword_count", "is_valid_manufacturer", "validation_reason"
     ] if c in df_filtered.columns]
     df_filtered = df_filtered.drop(columns=drop_cols)
-    print(f"  제거된 컬럼: {drop_cols}")
+    logging.info(f"  제거된 컬럼: {drop_cols}")
 
     df_filtered.to_csv(output_csv, index=False, encoding="utf-8-sig")
-    print(f"🚀 저장 완료: {output_csv}")
+    logging.info(f"🚀 저장 완료: {output_csv}")
     return output_csv
 
 

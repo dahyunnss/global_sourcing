@@ -38,8 +38,7 @@ def log_print(message=""):
 # 2. 메인 실행부
 # ============================================
 def main(input_csv: str = None, output_csv: str = None):
-    log_file = setup_logging()
-    log_print(f"🚀 is_relevant = TRUE 필터링 시작 (로그: {log_file})")
+    log_print("🚀 is_relevant = TRUE 필터링 시작")
 
     try:
         if input_csv is None:
@@ -142,4 +141,5 @@ def main(input_csv: str = None, output_csv: str = None):
         return None
 
 if __name__ == "__main__":
+    setup_logging()
     main()

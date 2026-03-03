@@ -16,6 +16,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 from datetime import timedelta
 from google.api_core.exceptions import ResourceExhausted
+import logging
 
 # ======================
 # 설정
@@ -79,11 +80,11 @@ def process_batch(batch_df):
 
         except ResourceExhausted:
             wait_time = 40
-            print(f"⚠️ 쿼터 초과. {wait_time}초 대기 후 재시도...")
+            logging.info(f"⚠️ 쿼터 초과. {wait_time}초 대기 후 재시도...")
             time.sleep(wait_time)
 
         except Exception as e:
-            print("❌ LLM 오류:", e)
+            logging.info(f"❌ LLM 오류: {e}")
             return []
 
 
@@ -99,10 +100,10 @@ def main(input_csv: str = None, output_csv: str = None):
             key=os.path.getmtime, reverse=True
         )
         if not candidates:
-            print("❌ true_*.csv 파일을 찾을 수 없습니다.")
+            logging.info("❌ true_*.csv 파일을 찾을 수 없습니다.")
             return None
         input_csv = candidates[0]
-        print(f"📂 자동 탐색된 CSV: {os.path.basename(input_csv)}")
+        logging.info(f"📂 자동 탐색된 CSV: {os.path.basename(input_csv)}")
 
     if output_csv is None:
         from datetime import datetime
@@ -112,7 +113,7 @@ def main(input_csv: str = None, output_csv: str = None):
     df = pd.read_csv(input_csv, encoding="utf-8-sig")
 
     total = len(df)
-    print(f"\n🚀 전체 {total:,}건 Gemini ONLY 검증 시작\n")
+    logging.info(f"\n🚀 전체 {total:,}건 Gemini ONLY 검증 시작\n")
 
     df["is_valid_manufacturer"] = None
     df["validation_reason"] = "llm_only"
@@ -136,20 +137,20 @@ def main(input_csv: str = None, output_csv: str = None):
         progress = processed / total
         eta = (elapsed / progress) - elapsed if progress > 0 else 0
 
-        print(f"✅ 진행: {processed:,}/{total:,} ({progress*100:.2f}%)")
-        print(f"⏱ 경과: {timedelta(seconds=int(elapsed))}")
-        print(f"⌛ ETA: {timedelta(seconds=int(eta))}")
+        logging.info(f"✅ 진행: {processed:,}/{total:,} ({progress*100:.2f}%)")
+        logging.info(f"⏱ 경과: {timedelta(seconds=int(elapsed))}")
+        logging.info(f"⌛ ETA: {timedelta(seconds=int(eta))}")
 
         if processed % SAVE_INTERVAL < BATCH_SIZE:
             df.to_csv(output_csv, index=False, encoding="utf-8-sig")
-            print("💾 중간 저장 완료")
+            logging.info("💾 중간 저장 완료")
 
     df.to_csv(output_csv, index=False, encoding="utf-8-sig")
 
     total_time = time.time() - start_time
-    print("\n🔥 전체 완료")
-    print(f"⏱ 총 소요 시간: {timedelta(seconds=int(total_time))}")
-    print(f"📁 저장: {output_csv}")
+    logging.info("\n🔥 전체 완료")
+    logging.info(f"⏱ 총 소요 시간: {timedelta(seconds=int(total_time))}")
+    logging.info(f"📁 저장: {output_csv}")
     return output_csv
 
 

@@ -4,6 +4,7 @@
 import os
 import glob
 import pandas as pd
+import logging
 
 
 def add_car_prefix(keyword):
@@ -57,11 +58,11 @@ def main(input_csv: str, output_csv: str):
     # CSV 저장 (엑셀 더블클릭 대응)
     df.to_csv(output_csv, index=False, encoding="utf-8-sig")
 
-    print(f"완료! 저장됨 → {output_csv}")
-    print(f"총 {len(df)} 행 처리됨")
+    logging.info(f"완료! 저장됨 → {output_csv}")
+    logging.info(f"총 {len(df)} 행 처리됨")
 
-    print("\n결과 샘플:")
-    print(df[[col, "general_keyword_car"]].head(10))
+    logging.info("\n결과 샘플:")
+    logging.info(df[[col, "general_keyword_car"]].head(10))
 
 
 if __name__ == "__main__":
