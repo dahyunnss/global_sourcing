@@ -1,0 +1,35 @@
+2026-02-27 16:09:39 로그 파일    : C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\2_logs\pipeline_20260227_160939.log
+2026-02-27 16:09:39 입력 파일    : 0_input_gk_260226.csv  (날짜 태그: 260226)
+2026-02-27 16:09:39 출력 디렉토리: C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226
+2026-02-27 16:09:39 [SKIP] STEP 1 / 10 : GK 변환 → 이미 존재: step1_gk_260226.csv
+2026-02-27 16:09:39 [SKIP] STEP 2 / 10 : 영/중 번역 → 이미 존재: step2_translate_260226.csv
+2026-02-27 16:09:39 [SKIP] STEP 3·4 / 10 준비 → EN/CN 키워드 CSV 이미 존재
+2026-02-27 16:09:39 [SKIP] STEP 3 / 10 : EN 키워드 수집 → all_keywords_suppliers_en.csv 이미 존재
+2026-02-27 16:09:39 [SKIP] STEP 4 / 10 : CN 키워드 수집 → all_keywords_suppliers_cn.csv 이미 존재
+2026-02-27 16:09:39 [SKIP] STEP 5 / 10 : 컬럼 통합 → 이미 존재: step5_combined_260226.csv
+2026-02-27 16:09:39 [SKIP] STEP 6 / 10 : 관련성 필터링 → 이미 존재: step6_relevance_260226.csv
+2026-02-27 16:09:39 [SKIP] STEP 7 / 10 : TRUE 필터링 → 이미 존재: step7_true_260226.csv
+2026-02-27 16:09:39 [SKIP] STEP 8 / 10 : 제조사 유효성 검증 → 이미 존재: step8_verified_260226.csv
+2026-02-27 16:09:39 =======================================================
+2026-02-27 16:09:39   STEP 9 / 10 : 유효 제조사 필터링
+2026-02-27 16:09:39   입력: step8_verified_260226.csv
+2026-02-27 16:09:39   출력: step9_valid_260226.csv
+2026-02-27 16:09:39 =======================================================
+2026-02-27 16:09:39 [완료] STEP 9 / 10 : 유효 제조사 필터링
+2026-02-27 16:09:39 =======================================================
+2026-02-27 16:09:39   STEP 10 / 10 : 마스터 컬럼 정리
+2026-02-27 16:09:39   입력: step9_valid_260226.csv
+2026-02-27 16:09:39   출력: step10_master_260226.csv
+2026-02-27 16:09:39 =======================================================
+2026-02-27 16:09:39 [완료] STEP 10 / 10 : 마스터 컬럼 정리
+2026-02-27 16:09:39 =======================================================
+2026-02-27 16:09:39   전체 파이프라인 완료!
+2026-02-27 16:09:39   번역 결과      → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step2_translate_260226.csv
+2026-02-27 16:09:39   컬럼 통합      → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step5_combined_260226.csv
+2026-02-27 16:09:39   관련성 필터링  → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step6_relevance_260226.csv
+2026-02-27 16:09:39   TRUE 필터링    → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step7_true_260226.csv
+2026-02-27 16:09:39   유효성 검증    → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step8_verified_260226.csv
+2026-02-27 16:09:39   유효 필터링    → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step9_valid_260226.csv
+2026-02-27 16:09:39   최종 결과      → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\1_output\260226\step10_master_260226.csv
+2026-02-27 16:09:39   로그 파일      → C:\Users\dahyunss\final_sourcing\alibaba_sourcing3\2_logs\pipeline_20260227_160939.log
+2026-02-27 16:09:39 =======================================================
