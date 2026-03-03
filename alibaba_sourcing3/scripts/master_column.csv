@@ -1,0 +1,34 @@
+﻿general_keyword_네이버쇼핑,제너럴키워드
+general_keyword_네이버쇼핑,제너럴키워드
+meta_keyword,입력 키워드
+meta_collected_at,수집일자
+supplier_action,공급사 프로필 URL
+supplier_companyId,공급사 ID
+supplier_companyName,공급사명
+supplier_companyTitle,공급사 표시명
+supplier_newAd,신규 광고 여부
+supplier_areaNumber,공장/시설 면적
+supplier_staffNumber,직원수
+supplier_goldYearsNumber,알리바바 활동 연차(숫자)
+supplier_goldYears,알리바바 활동 연차
+supplier_verifiedSupplier,인증 공급사 여부
+supplier_verifiedSupplierPro,프로 인증 공급사 여부
+supplier_countryCode,국가 코드
+supplier_city,지역
+supplier_isFactory,공장 여부
+supplier_reviewScore,리뷰 평점
+supplier_reviewCount,리뷰 수
+supplier_reviewLink,리뷰 페이지 URL
+supplier_onTimeDelivery,정시 배송률
+supplier_replyAvgTime,평균 응답 시간
+supplier_reorderRate,재주문율
+supplier_onlineRevenue,온라인 매출 규모
+supplier_mainProducts,주요 생산 품목
+product_action,상품 URL
+product_productId,상품 ID
+product_productImg,상품 이미지 URL
+product_price,상품 가격
+product_moq,최소 주문 수량(MOQ)
+product_cateId,상품 카테고리 ID
+product_traceCommonArgs_oriKeyWord,원본 키워드
+product_traceCommonArgs_recallKeyWord,검색 키워드
